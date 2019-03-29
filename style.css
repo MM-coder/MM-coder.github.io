@@ -8,9 +8,10 @@ body {
 	cursor: default;
 }
 
-a {
-	color: #fff;
+.indent1 {
+    padding-left: 40px;
 }
+
 
 .code-area {
     position: absolute;
