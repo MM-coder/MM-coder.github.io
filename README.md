@@ -1,4 +1,4 @@
 ## My Personal Website
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/E1E0TNYT)![GitHub](https://img.shields.io/github/license/mm-coder/MM-coder.github.io.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cd725337dd9b4ccd84bf5a34a0e57761)](https://www.codacy.com/app/MM-coder/MM-coder.github.io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MM-coder/MM-coder.github.io&amp;utm_campaign=Badge_Grade)
 
 Developed in about a week of blood sweat and tears god forbid I see a line of CSS or HTML ever again.
