@@ -1,0 +1,135 @@
+
+body {
+    background: #081421;
+    color: #d3d7de;
+    font-family: "Courier new";
+    font-size: 18px;
+    line-height: 1.5em;
+	cursor: default;
+}
+
+.indent1 {
+    padding-left: 40px;
+}
+.multiline {
+    padding-left: 210px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1px;
+    float: right;
+    width: 100%;
+}
+
+.code-area {
+    position: absolute;
+    width: 320px;
+	min-width: 320px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.post-area {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.posts-title{
+    padding-top: 70px;
+    text-align: center;
+    font-size: 30px
+}
+
+.wrapper {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+
+.postdiv {
+    position: relative;
+    border-radius: 25px;
+    border: 2px solid #081e35;
+    padding: 20px;
+    width: 250px;
+    height: 80px; 
+}
+
+
+.post-title {
+    font-size: 40px;
+    color: #a6a61f;
+}
+
+.post-text {
+    font-size: 30px;
+    color: #d3d7de;
+}
+
+.postdiv-title {
+    padding: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.postdiv-info {
+    text-align: left;
+    font-size: 15px;
+}
+
+.star {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #fff300;
+    border-radius: 50%;
+    left: -3%;
+    top: -9%;
+}
+
+.code-area > span {
+    display: block;
+}
+
+@media screen and (max-width: 320px) {
+    .code-area {
+		font-size: 5vw;
+		min-width: auto;
+        width: 95%;
+		margin: auto;
+		padding: 5px;
+		padding-left: 10px;
+		line-height: 6.5vw;
+    }
+}
+
+
+img {
+    position: absolute;
+    text-align: center;
+    right: 5px;
+    top: 84%;
+    bottom: 0;
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.backbutton {
+
+    color: #fff;
+    /* background-color: #23272A; */
+}
+
+a {
+    color: inherit;
+}
