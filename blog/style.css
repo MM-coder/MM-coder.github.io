@@ -76,12 +76,15 @@ footer {
 }
 
 .postdiv-title {
+    line-height: 1.2;
     padding: 0px;
     text-align: center;
     font-size: 18px;
 }
 
 .postdiv-info {
+    padding-top: 10px;
+    line-height: 1;
     text-align: left;
     font-size: 15px;
 }
