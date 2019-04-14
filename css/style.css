@@ -11,11 +11,9 @@ body {
 .indent1 {
     padding-left: 40px;
 }
-
-.indent1 {
-    padding-left: 80px;
+.multiline {
+    padding-left: 210px;
 }
-
 footer {
     position: absolute;
     bottom: 0;
