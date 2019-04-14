@@ -12,6 +12,17 @@ body {
     padding-left: 40px;
 }
 
+.indent1 {
+    padding-left: 80px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1px;
+    float: right;
+    width: 100%;
+}
 
 .code-area {
     position: absolute;
