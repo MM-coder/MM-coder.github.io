@@ -72,6 +72,8 @@ footer {
 }
 
 .post-text {
+    position: relative;
+    width: 675px;
     font-size: 30px;
     color: #d3d7de;
     padding-bottom: 30px;
@@ -132,6 +134,15 @@ img {
     border-radius: 50%;
 }
 
+
+.spacer {
+    margin-top: 6px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 3px;
+    background: -webkit-linear-gradient(to left, #a6a61f, #b5ac49); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #a6a61f, #b5ac49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 .backbutton {
 
