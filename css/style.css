@@ -56,3 +56,38 @@ footer {
 		line-height: 6.5vw;
     }
 }
+
+.alert {
+    padding: 10px;
+    background-color: #081e35; /* Blue */
+    color: white;
+    margin-bottom: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    border-radius: 25px;
+    padding-left: 20px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-top: 1px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .closebtn:hover {
+      color: red;
+  }
+
+  a {
+      color: inherit;
+  }
+  
