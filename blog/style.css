@@ -1,4 +1,8 @@
 
+
+html {
+    scroll-behavior: smooth;
+}
 body {
     background: #081421;
     color: #d3d7de;
@@ -79,6 +83,7 @@ footer {
     padding-bottom: 30px;
     font-family: 'Roboto Mono', monospace;
     font-weight: 100;
+    line-height: 1;
 }
 
 .postdiv-title {
