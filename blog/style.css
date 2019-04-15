@@ -22,15 +22,6 @@ footer {
     width: 100%;
 }
 
-.code-area {
-    position: absolute;
-    width: 320px;
-	min-width: 320px;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
 
 .post-area {
     position: absolute;
@@ -73,6 +64,8 @@ footer {
     font-size: 30px;
     color: #d3d7de;
     padding-bottom: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
 }
 
 .postdiv-title {
@@ -91,6 +84,7 @@ footer {
 
 .star {
     position: absolute;
+    text-align: center;
     height: 25px;
     width: 25px;
     background-color: #fff300;
