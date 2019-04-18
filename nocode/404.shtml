@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://nocode.itsmmgamer.tk/404.css">
         <script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="shortcut icon" href="https://itsmmgamer.tk/favicon.ico" type="image/x-icon">
     </head>
     <body>
@@ -27,7 +28,7 @@
             </script>
         </div>
         <div class="footer">
-            <div class="footer-text">Server: <!--#echo var="HTTP_HOST" --> <i class="fas fa-circle"></i> Browser: <!--#echo var="HTTP_USER_AGENT" --></div>
+            <div class="footer-text">Server: <!--#echo var="HTTP_HOST" --> <i class="fas fa-circle"></i> IP: <!--#echo var="REMOTE_ADDR" --></div>
         </div>
     </body>
 </html>
