@@ -1,0 +1,58 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+
+.maindiv {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    border-radius: 25px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+mark {
+    background-color: yellow;
+    font-style: italic;
+}
+
+mark::selection {
+    background-color: #d65562;
+}
+
+#typed {
+    font-family: "Courier new";
+    font-size: 35px;
+    
+
+}
+
+a {
+    color: inherit;
+}
+
+.typed-cursor {
+    font-size: 35px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
