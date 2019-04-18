@@ -28,7 +28,7 @@
             </script>
         </div>
         <div class="footer">
-            <div class="footer-text">Server: <!--#echo var="HTTP_HOST" --> <i class="fas fa-circle"></i> IP: <!--#echo var="REMOTE_ADDR" --></div>
+            <div class="footer-text"><i class="fas fa-server"></i> Server: <!--#echo var="HTTP_HOST" --> | <i class="fas fa-info-circle"></i> IP: <!--#echo var="REMOTE_ADDR" --></div>
         </div>
     </body>
 </html>
