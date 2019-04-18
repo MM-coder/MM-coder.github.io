@@ -26,5 +26,8 @@
                 });
             </script>
         </div>
+        <div class="footer">
+            <div class="footer-text">Server: <!--#echo var="HTTP_HOST" --> <i class="fas fa-circle"></i> Browser: <!--#echo var="HTTP_USER_AGENT" --></div>
+        </div>
     </body>
 </html>
