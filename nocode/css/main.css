@@ -156,3 +156,12 @@ mark::selection {
     text-align: inherit;
     padding: 3px;
 }
+
+a {
+    text-decoration: underline;
+}
+
+
+a:visited {
+    color: inherit;
+}
