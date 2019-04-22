@@ -1,8 +1,6 @@
 ![](header.png)
 
 # My Personal Website
-
-
 ## Statistics
 
 | Name          | Value                                                                                                                                                                                                                                                                         |
@@ -16,8 +14,8 @@
 HTML, CSS and JS (jQuery)
 
 ## Acknowledgements
-* jQuery: https://jquery.com/
-* Typed.js: https://github.com/mattboldt/typed.js/
-* Inspiration: https://codepen.io/conmarap/pen/mVMvVv
-* Custom Buttons: https://codepen.io/melnik909/pen/pQEazE 
+*   jQuery: https://jquery.com/
+*   Typed.js: https://github.com/mattboldt/typed.js/
+*   Inspiration: https://codepen.io/conmarap/pen/mVMvVv
+*   Custom Buttons: https://codepen.io/melnik909/pen/pQEazE 
 
