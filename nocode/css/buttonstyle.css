@@ -510,6 +510,7 @@ SETTINGS
 /* ItsMMgamer Fucks Shit Up From now Forward */
 
 .ai-element_discord {
+    text-decoration: none;
     --aiElementLineWeight: 5px;
 	--aiElementLineColor: #7289DA;
 	--aiElementColor: black;
@@ -518,6 +519,7 @@ SETTINGS
 
 
 .ai-element_github {
+    text-decoration: none;
     --aiElementLineWeight: 5px;
 	--aiElementLineColor: #222222;
 	--aiElementColor: black;
