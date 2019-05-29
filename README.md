@@ -20,7 +20,7 @@ HTML, CSS and JS (jQuery)
   /blog - https://blog.itsmmgamer.tk
   /nocode - https://nocode.itsmmgamer.tk
 ```
-::, 
+
 ## How to use on your local machine
 
 ```
