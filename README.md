@@ -20,6 +20,15 @@ HTML, CSS and JS (jQuery)
   /blog - https://blog.itsmmgamer.tk
   /nocode - https://nocode.itsmmgamer.tk
 ```
+::, 
+## How to use on your local machine
+
+```
+git clone https://github.com/MM-coder/MM-coder.github.io.git
+cd MM-coder.github.io
+firefox index.html :: or chrome index.html
+```
+
 
 ## Acknowledgements
 *   jQuery: https://jquery.com/
