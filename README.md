@@ -13,6 +13,14 @@
 
 HTML, CSS and JS (jQuery)
 
+## Folders and respective domains
+
+```
+  / - https://itsmmgamer.tk
+  /blog - https://blog.itsmmgamer.tk
+  /nocode - https://nocode.itsmmgamer.tk
+```
+
 ## Acknowledgements
 *   jQuery: https://jquery.com/
 *   Typed.js: https://github.com/mattboldt/typed.js/
