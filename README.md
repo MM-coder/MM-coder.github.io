@@ -23,6 +23,10 @@ HTML, CSS and JS (jQuery)
 
 ## How to use on your local machine
 
+# Requirements:
+* cmd (if on linux: terminal emulator & on mac: terminal)
+* git (https://git-scm.com/downloads)
+
 ```
 git clone https://github.com/MM-coder/MM-coder.github.io.git
 cd MM-coder.github.io
