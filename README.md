@@ -23,7 +23,7 @@ HTML, CSS and JS (jQuery)
 
 ## How to use on your local machine
 
-# Requirements:
+### Requirements:
 * cmd (if on linux: terminal emulator & on mac: terminal)
 * git (https://git-scm.com/downloads)
 
