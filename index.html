@@ -1,41 +1,160 @@
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <meta property="og:title" content="ItsMMgamer's Website">
-  <meta property="og:image" content="http://assets.syte.space/assets/mm.png">
-  <meta property="og:description" content="ItsMMgamer, a amateur coder based by the waterfront 🌊">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ItsMMgamer</title> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Default -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/button.css" title="default"/>
+    <!-- Dark -->
+    <link rel="stylesheet" type="text/css" href="css/button.css" title="dark"/>
+    <link rel="alternate stylesheet" type="text/css" href="css/dark.css" title="dark"/>
+    <!-- Mobile -->
+    <!-- Please ignore -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/mobile.css" title="mobile"/>
+    <link rel="stylesheet" type="text/css" href="css/button.css" title="mobile"/> -->
+    <!-- Other -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Biryani:200,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="js/main.js"></script>
+    <title>ItsMMgamer | Home</title>
 </head>
-<div class="alert">
-  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-  <strong style="padding-bottom: 1px;">🎉 My blog has been released! 🎉</strong> go check it out <a href="https://blog.itsmmgamer.tk">here!</a>
-</div> 
-<div class="code-area">
-  <span style="color: #777;font-style:italic;">
-    # index.html about ItsMMgamer.
-  </span>
-  <div>
-  <span style="color: #d65562">while </span><span style="color: #bdbdbd">greatcoder </span><span style="color: #4ca8ef">== </span><span style="color: #a6a61f">True</span><span>:</span>
-  </div>
-  <div class="indent1">
-    <span style="color: #bdbdbd">knowhow </span><span style="color: #4ca8ef">= </span><span style="color: #bdbdbd">[</span><span style="color: #a6a61f">'HTML'</span><span style="color: #bdbdbd">, </span><span style="color: #a6a61f">'CSS'</span><span style="color: #bdbdbd">, </span><span style="color: #a6a61f">'Python'</span><span style="color: #bdbdbd">]</span>
-  </div>
-  <div class="indent1">
-    <span style="color: #d65562">for </span><span style="color: #bdbdbd">x </span><span style="color: #d65562">in </span><span style="color: #bdbdbd">knowhow:</span>
-  </div>
-  <div style="padding-left: 80px">
-    <span style="color: #4ca8ef">print</span><span style="color: #bdbdbd">(</span><span style="color: #d65562">f</span><span style="color:#a6a61f">"{</span><span style="color: #bdbdbd">x</span><span style="color:#a6a61f">} Is Important"</span><span style="color: #bdbdbd">)</span>
-  </div>
-  <span style="color: #777;font-style:italic;">
-      # <a style="color: #fff" href="projects.html">Projects</a> <a style="color: #fff" href="me.html">About Me</a> <a style="color: #fff" href="contact.html">Contact Me</a>
-	  </span>
-</div>
-<div class="changeview"><a style="text-decoration: none;" href="https://nocode.itsmmgamer.tk/">👀</a>
+<body>
+    <div class="hidiv">
+        <div class="header">
+            <span class="pain">Hi, I'm</span> <span class="gradient">Mauro</span>
+        </div>
+        <div class="subtitle">
+            <span class="plain">And I specialise in</span><span class="gradient"> web development</span>
+        </div>
+    </div>
+    <button id = "button" class="down-button"><i class="fas fa-caret-down"></i></button>
+    <button class="dark-button" onclick="switch_style('dark');return false;"><i class="fas fa-moon"></i></button>
+    <div class="aboutme">
+        <div id = "aboutme-title" class="title">About me</div>
+        <img id="fourth" src="assets/mm.png" alt="">
+        <div id = "second" class="text">
+            I'm a <i class="fas fa-code" title="Programmer"></i> based in <span class="redacted" title="Redacted">redacted</span>, <span class="redacted">redacted</span>. I am a big <mark>#opensource</mark> supporter that's why most of my projects can be found on my <a href="https://github.com/MM-coder/"><i class="fab fa-github" title="Github"></i></a>. I love to look at nature whilst I'm coding, I also enjoy <i class="fas fa-palette" title="Design"></i> and <i class="fas fa-basketball-ball" title="Basketball"></i>.
+        </div>
 
-  <div class="changeviewnotif"><strong>Psst.</strong> if you don't understand code click here for a more user friendly website
-    <span class="viewclosebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-  </div>
-</div>
+    </div>
+    <div class="arsenal-div">
+        <div id="arsenal-title" class="title">My Arsenal:</div>
+        <div class="wrapper">
+            <div id = "first" class="arsenal-card">
+                <div class="imgdiv">
+                    <img src="assets/python.png" alt="python" width="140px" height="140px;">
+                </div>
+                <div class="subtitle">Python</div>
+                <div class="text">A language I use for everything from discord bots to web servers</div>
+            </div>
+            <div id = "second" class="arsenal-card">
+                <div class="imgdiv">
+                    <img src="assets/html5.png" alt="html5" width="90px" height="90px;" class="constrain">
+                </div>
+                <div class="subtitle">HTML5</div>
+                <div class="text">The constituency of webpages all around us</div>
+            </div>
+            <div id = "third" class="arsenal-card">
+                <div class="imgdiv">
+                    <img src="assets/js.png" alt="js" width="90px" height="90px;" class="constrain">
+                </div>
+                <div class="subtitle">JavaScript</div>
+                <div class="text">For animations, I don't use it as a main language outside of webdev</div>
+            </div>
+            <div id = "fourth" class="arsenal-card">
+                <div class="imgdiv">
+                    <img src="assets/css3.png" alt="css3" width="90px" height="90px;" class="constrain">
+                </div>
+                <div class="subtitle">CSS3</div>
+                <div class="text">The language that helps make my designs a reality</div>
+            </div>
+        </div>
+    </div>
+    <div class="work-div">
+        <div id = "work-title" class="title">My Work:</div>
+        <div class="wrapper">
+            <div id = "first" class="work-card">
+                <div class="imgdiv"><img src="assets/sytespace.jpg" alt=""></div>
+                <div class="textdiv">
+                    <div class="title">SyteSpace</div>
+                    <div class="desc">A bot for the SyteSpace discord</div>
+                    <div class="buttons">
+                        <a style="text-decoration: none;" href="https://discord.gg/Pr5ryvb/"><button class="r-button ai-element ai-element_type1 ai-element1 ai-element_discord"><span class="ai-element__label"><i style="color: #7289DA" class="fab fa-discord"></i> Discord</span></button></a>
+                        <a style="text-decoration: none;" href="https://github.com/sytespace/"><button class="r-button ai-element ai-element_type1 ai-element1 ai-element_github"><span class="ai-element__label"><i style="color: inherit" class="fab fa-github"></i> Github</span></button></a>
+                    </div>
+                </div>
+            </div>
+            <div id = "first" class="work-card">
+                <div class="imgdiv"><img src="assets/spark.png" alt=""></div>
+                <div class="textdiv">
+                    <div class="title">Spark.</div>
+                    <div class="desc">An inovative multi purpose bot</div>
+                    <div class="buttons">
+                        <a style="text-decoration: none;" href="https://sparkbot.pw/"><button class="r-button ai-element ai-element_type1 ai-element1 ai-element_external"><span class="ai-element__label"><i style="color: inherit" class="fas fa-external-link-alt"></i> Website</span></button></a>
+                        <a style="text-decoration: none;" href="https://github.com/spark-discord/"><button class="r-button ai-element ai-element_type1 ai-element1 ai-element_github"><span class="ai-element__label"><i style="color: inherit" class="fab fa-github"></i> Github</span></button></a>
+                    </div>
+                </div>
+            </div>
+            <div id = "second" class="work-card">
+                    <div class="imgdiv"><img src="assets/fancy-index.png" alt="" width="54px" height="54px"></div>
+                    <div class="textdiv">
+                        <div class="title">Fancy-Index</div>
+                        <div class="desc">A way to remedy those hideous index of pages</div>
+                        <div class="buttons">
+                            <a style="text-decoration: none;" href="https://github.com/MM-coder/fancy-index"><button class="r-button ai-element ai-element_type1 ai-element1 ai-element_github"><span class="ai-element__label"><i style="color: inherit" class="fab fa-github"></i> Github</span></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div id = "second" class="work-card">
+                    <div class="imgdiv"><img src="assets/nexero.png" alt=""></div>
+                    <div class="textdiv">
+                        <div class="title">Nexero</div>
+                        <div class="desc">Inovative image-manipulation discord bot</div>
+                        <div class="buttons">
+                            <a style="text-decoration: none;" href="https://github.com/MM-coder/Nexero"><button class="r-button ai-element ai-element_type1 ai-element1 ai-element_github"><span class="ai-element__label"><i style="color: inherit" class="fab fa-github"></i> Github</span></button></a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div class="more-div">
+        <div id="more-title" class="title">More:</div>
+            <div class="icons">
+                <div id="first" class="icon github">
+                    <a href="https://github.com/MM-coder/"><i class="fab fa-github"></i></a>
+                </div>
+                <div id="second" class="icon instagram">
+                    <a href="https://www.instagram.com/mmgamerdesign/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div id="third" class="icon twitter">
+                    <a href="https://twitter.com/mmbusiness161/"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div id="fourth" class="icon discord">
+                    <a href="https://discord.gg/p8Gy6b/"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+    </div>
+    <div class="footer">
+        <div class="text"><i class="fas fa-terminal"></i> with <i style="animation: 1.5s heartThrob infinite;padding: 3px;"class="fas fa-heart"></i> by <a href="https://itsmmgamer.tk/">ItsMMgamer</a></div>
+    </div>
+    <script>
+        // Animations
+            // About me
+            ScrollReveal().reveal('#aboutme-title', { delay: 1000 });
+            // Arsenal
+            ScrollReveal().reveal('#arsenal-title', { delay: 1000 });
+            // Work
+            ScrollReveal().reveal('#work-title', { delay: 1000 });
+            //More
+            ScrollReveal().reveal('#more-title', { delay: 1000 });
+            // General
+            ScrollReveal().reveal('#first', { delay: 1100 });
+            ScrollReveal().reveal('#second', { delay: 1300 });
+            ScrollReveal().reveal('#third', { delay: 1400 });
+            ScrollReveal().reveal('#fourth', { delay: 1500 });
+    </script>
+</body>
+</html>

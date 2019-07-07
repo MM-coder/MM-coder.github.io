@@ -1,0 +1,191 @@
+html {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-image: url('img/left.png');
+    color: black;
+    font-family: 'Biryani', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.hidiv {
+    min-width: 500px;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 300px;
+    text-align: left;
+    line-height: 65px;
+}
+
+.hidiv .header {
+    font-size: 70px;
+}
+
+.hidiv .plain {
+    font-weight: 100;
+}
+
+.hidiv .gradient {
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hidiv .subtitle {
+    font-size: 40px;
+}
+
+.down-button {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 0px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+
+
+.dark-button {
+    position: fixed;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    color: white;
+    text-align: center;
+    float: right;
+    border: 0px;
+    font-weight: 100;
+    font-size: 15px;
+    bottom: 5;
+    right: 5;
+}
+
+.arsenal-div {
+    margin-top: 60px;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.title {
+    color: inherit;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+.arsenal-div .wrapper {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 1px;
+
+}
+
+.arsenal-card {
+    width: 300px;
+    height: 300px;
+}
+
+.arsenal-card .imgdiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.imgdiv img {
+    margin: 5px;
+}
+
+.imgdiv .constrain {
+    padding: 25px;
+}
+
+.arsenal-card .subtitle {
+    font-size: 30px;
+    padding: 10px;
+    color: inherit;
+}
+
+.arsenal-card .text {
+    padding: 10px;
+    color: inherit;
+}
+
+.work-div {
+    width: 100%;
+}
+
+.work-div .wrapper {
+    padding: 40px;
+    padding-left: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 27px;
+}
+
+
+.work-card {
+    width: 400px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+.work-card .imgdiv {
+    position: relative;
+    left: -20%;
+    top: -15%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.work-card .imgdiv img {
+    border-radius: 50%;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.work-card .textdiv {
+    position: relative;
+    float: right;
+    padding: 20px;
+    bottom: 150px;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+}
+
+.textdiv .title {
+    font-size: 30px;
+    color: inherit;
+}
+
+.textdiv .desc {
+    font-size: 20px;
+    padding-left: 90px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}

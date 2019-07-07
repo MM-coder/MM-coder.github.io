@@ -1,0 +1,126 @@
+html {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('img/full.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family: 'Biryani', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.maindiv {
+    position: absolute;
+    min-width: 320px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: black;
+    line-height: 1;
+}
+
+
+.err {
+    font-size: 100px;
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.text {
+    font-size: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    bottom: 20px;
+    position: absolute;
+}
+
+.footer .text {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.text i {
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@-moz-keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+   @-webkit-keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+   @-o-keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+   @keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }

@@ -1,0 +1,47 @@
+/* Original Pen: https://codepen.io/JavaScriptJunkie/pen/pPRooV */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  
+  .buttons {
+      margin: 10%;
+      text-align: center;
+  }
+  
+  .btn-hover {
+      width: 200px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #fff;
+      cursor: pointer;
+      margin: 20px;
+      height: 55px;
+      text-align:center;
+      border: none;
+      background-size: 300% 100%;
+  
+      border-radius: 50px;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:hover {
+      background-position: 100% 0;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:focus {
+      outline: none;
+  }
+  
+  .btn-hover.color-1 {
+      background-image: linear-gradient(to right,#FC5C7D, #B36FBC, #8E79DB, #8E79DB);
+      box-shadow: 0 4px 15px 0 #B36FBC;
+  }
