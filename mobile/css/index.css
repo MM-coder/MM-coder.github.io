@@ -1,0 +1,320 @@
+html {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('img/full.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-family: 'Biryani', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.hidiv {
+    padding-top: 140px;
+    height: 200px;
+    line-height: 1.5;
+}
+
+.hidiv .header {
+    font-size: 50px;
+}
+
+.hidiv .plain {
+    font-weight: 100;
+}
+
+.hidiv .gradient {
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hidiv .subtitle {
+    font-size: 30px;
+}
+
+.down-button {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 0px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+
+
+.dark-button {
+    position: fixed;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    color: white;
+    text-align: center;
+    float: right;
+    border: 0px;
+    font-weight: 100;
+    font-size: 15px;
+    bottom: 5;
+    right: 5;
+}
+
+.arsenal-div {
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    color: inherit;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+.arsenal-div .wrapper {
+    padding: 40px;
+
+}
+
+.arsenal-card {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.arsenal-card .imgdiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+.imgdiv img {
+    margin: 5px;
+}
+
+.imgdiv .constrain {
+    padding: 25px;
+}
+
+.arsenal-card .subtitle {
+    font-size: 30px;
+    padding: 5px;
+    color: inherit;
+}
+
+.arsenal-card .text {
+    padding: 10px;
+    color: inherit;
+}
+
+.more-div {
+    padding-top: 40px;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.icons {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.icon {
+    font-size: 60px;
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    min-width: 60px;
+    min-height: 60px;
+    margin: 0 auto;
+    margin: 15px;
+}
+
+
+.discord:hover {
+    background: #7289DA;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.twitter:hover {
+    background: #1da1f3;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.instagram:hover {
+    background: -webkit-linear-gradient(to bottom, #833ab4, #fd1d1d, #fcb045);
+    background: linear-gradient(to bottom, #833ab4, #fd1d1d, #fcb045);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.github:hover {
+    background: #222222;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+}
+
+.footer .text {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.text i {
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+@-moz-keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+   @-webkit-keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+   @-o-keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+   @keyframes heartThrob {
+    10% {
+     transform:scale(1.15)
+    }
+    20% {
+     transform:scale(1)
+    }
+    40% {
+     transform:scale(1.15)
+    }
+    60% {
+     transform:scale(1)
+    }
+   }
+
+
+.aboutme {
+    padding-top: 70px;
+    padding: 40px;
+}
+
+
+.aboutme img {
+    border-radius: 50%;
+    border: 4px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+
+.aboutme .title {
+    color: inherit;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.aboutme .text {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 300px;
+}
+
+.aboutme mark {
+    background: -webkit-linear-gradient(#FC5C7D, #6A82FB);
+    background: linear-gradient(#FC5C7D, #6A82FB);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.aboutme .text .redacted {
+    color:#000;
+    background:#000;
+    font-size: 15px;
+}
+
+.aboutme .text .redacted::selection {
+    background:#000
+}
+
+.bubbles {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-image: url(img/left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}

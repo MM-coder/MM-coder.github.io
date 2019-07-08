@@ -1,0 +1,106 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Default -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/button.css" title="default"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Biryani:200,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="js/main.js"></script>
+    <title>ItsMMgamer | Home</title>
+</head>
+<body>
+    <div class="bubbles"></div>
+    <div class="hidiv">
+        <div class="header">
+            <span class="pain">Hi, I'm</span> <span class="gradient">Mauro</span>
+        </div>
+        <div class="subtitle">
+            <span class="plain">And I specialise in</span><span class="gradient"> web development</span>
+        </div>
+    </div>
+    <button id = "button" class="down-button"><i class="fas fa-caret-down"></i></button>
+    <div class="aboutme">
+        <div id = "aboutme-title" class="title">About me</div>
+        <img id="fourth" src="assets/mm.png" alt="">
+        <div id = "second" class="text">
+            I'm a <i class="fas fa-code" title="Programmer"></i> based in <span class="redacted" title="Redacted">redacted</span>, <span class="redacted">redacted</span>. I am a big <mark>#opensource</mark> supporter that's why most of my projects can be found on my <a href="https://github.com/MM-coder/"><i class="fab fa-github" title="Github"></i></a>. I love to look at nature whilst I'm coding, I also enjoy <i class="fas fa-palette" title="Design"></i> and <i class="fas fa-basketball-ball" title="Basketball"></i>.
+        </div>
+
+    </div>
+    <div class="arsenal-div">
+        <div id="arsenal-title" class="title">My Arsenal:</div>
+        <div class="wrapper">
+            <div id = "first" class="arsenal-card">
+                <div class="imgdiv">
+                    <img src="assets/python.png" alt="python" width="140px" height="140px;">
+                </div>
+                <div class="subtitle">Python</div>
+                <div class="text">A language I use for everything from discord bots to web servers</div>
+            </div>
+            <div id = "second" class="arsenal-card">
+                <div class="imgdiv">
+                    <img src="assets/html5.png" alt="html5" width="90px" height="90px;" class="constrain">
+                </div>
+                <div class="subtitle">HTML5</div>
+                <div class="text">The constituency of webpages all around us</div>
+            </div>
+            <div id = "third" class="arsenal-card">
+                <div class="imgdiv">
+                    <img src="assets/js.png" alt="js" width="90px" height="90px;" class="constrain">
+                </div>
+                <div class="subtitle">JavaScript</div>
+                <div class="text">For animations, I don't use it as a main language outside of webdev</div>
+            </div>
+            <div id = "fourth" class="arsenal-card">
+                <div class="imgdiv">
+                    <img src="assets/css3.png" alt="css3" width="90px" height="90px;" class="constrain">
+                </div>
+                <div class="subtitle">CSS3</div>
+                <div class="text">The language that helps make my designs a reality</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="more-div">
+        <div id="more-title" class="title">More:</div>
+            <div class="icons">
+                <div id="first" class="icon github">
+                    <a href="https://github.com/MM-coder/"><i class="fab fa-github"></i></a>
+                </div>
+                <div id="second" class="icon instagram">
+                    <a href="https://www.instagram.com/mmgamerdesign/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div id="third" class="icon twitter">
+                    <a href="https://twitter.com/mmbusiness161/"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div id="fourth" class="icon discord">
+                    <a href="https://discord.gg/p8Gy6b/"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+    </div>
+    <div class="footer">
+        <div class="text"><i class="fas fa-terminal"></i> with <i style="animation: 1.5s heartThrob infinite;padding: 3px;"class="fas fa-heart"></i> by <a href="https://itsmmgamer.tk/">ItsMMgamer</a></div>
+    </div>
+    <script>
+        // Animations
+            // About me
+            ScrollReveal().reveal('#aboutme-title', { delay: 1000 });
+            // Arsenal
+            ScrollReveal().reveal('#arsenal-title', { delay: 1000 });
+            // Work
+            ScrollReveal().reveal('#work-title', { delay: 1000 });
+            //More
+            ScrollReveal().reveal('#more-title', { delay: 1000 });
+            // General
+            ScrollReveal().reveal('#first', { delay: 1100 });
+            ScrollReveal().reveal('#second', { delay: 1300 });
+            ScrollReveal().reveal('#third', { delay: 1400 });
+            ScrollReveal().reveal('#fourth', { delay: 1500 });
+    </script>
+</body>
+</html>

@@ -52,3 +52,6 @@ function get_cookie ( cookie_name )
 	return '' ;
 }
 
+if (screen.width <= 800) {
+  window.location = "https://itsmmgamer.tk/mobile/";
+}
